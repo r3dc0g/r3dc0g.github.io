@@ -1,7 +1,14 @@
 import styles from "./ProjectCard.module.css";
 import {getImageUrl} from "../../../utils";
+import Project from "../../../types/Project";
 
-export const ProjectCard = ({project: {title: string, imageSrc: string, description: string, skills: string, demo: string, source: string}}) => {
+type ProjectCardProps = {
+  project: Project;
+}
+
+export const ProjectCard = ({ project }: ProjectCardProps) => {
+    let { title, imageSrc, description, skills, demo, source } = project;
+
     return (
         <div className={styles.container}>
             <img
@@ -13,7 +20,7 @@ export const ProjectCard = ({project: {title: string, imageSrc: string, descript
             <p className={styles.description}>{description}</p>
             <ul className={styles.skills}>
                 {
-                    skills.map((skill, id) => {
+                    skills.map((skill: string, id) => {
                         return (
                             <li
                                 key={id}

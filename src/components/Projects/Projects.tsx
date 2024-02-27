@@ -1,6 +1,7 @@
 import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
 import {ProjectCard} from "./ProjectCard/ProjectCard";
+import Project from "../../types/Project";
 
 export const Projects = () => {
     return (
@@ -8,7 +9,7 @@ export const Projects = () => {
             <h2 className={styles.title}>Projects</h2>
             <div className={styles.projects}>
                 {
-                    projects.map((project) => {
+                    projects.map((project: Project) => {
                         return (
                             <ProjectCard project={project} />
                         )
