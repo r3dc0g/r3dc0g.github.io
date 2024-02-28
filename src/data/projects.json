@@ -16,7 +16,7 @@
     "source": "https://github.com/r3dc0g/crabfeed"
   },
   {
-    "title": "Class Flowchart and Dependency List",
+    "title": "Class Flowchart",
     "imageSrc": "projects/project.png",
     "description": "Python program that uses graph theory to create a schedule for a Seattle Pacific University student.",
     "skills": ["Python", "Pyvis"],

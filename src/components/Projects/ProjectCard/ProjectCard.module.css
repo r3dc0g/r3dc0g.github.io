@@ -10,7 +10,9 @@
         #1d1d1d 100%
     );
     padding: 18px 24px;
-    max-width: 400px;
+    width: 400px;
+    min-height: 600px;
+    max-height: 600px;
 }
 
 .image {
@@ -26,6 +28,7 @@
     margin-top: 6px;
     font-size: 25px;
     font-weight: 400;
+    min-height: 140px;
 }
 
 .skills {
@@ -61,4 +64,14 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 22px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        min-height: 0;
+    }
+
+    .description {
+        min-height: 0;
+    }
 }

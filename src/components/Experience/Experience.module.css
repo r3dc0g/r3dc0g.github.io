@@ -123,4 +123,8 @@
         width: 100%;
         gap: 9px;
     }
+
+    .historyItem {
+        flex-direction: column;
+    }
 }
