@@ -20,8 +20,8 @@ export const About = () => {
                     </li>
                     <li className={styles.aboutItem}>
                         <div className={styles.aboutItemText}>
-                            <h3>Passions</h3>
-                            <p>I have a passion for knowledge and art. Currently, I work as a Lab Assistant at my university, and I enjoy helping new students get into the world of computer science. I am also working on developing my design skills so that the things I create are artistically and aesthically interesting!</p>
+                            <h3>Education</h3>
+                            <p>I am currently enrolled at Seattle Pacific University earning a Bachelors of Science in Computer Science and a Bachelors of Arts in Liberal Arts!</p>
                         </div>
                     </li>
                 </ul>
