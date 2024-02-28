@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
+    "title": "JuiceBox",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "JuiceBox is a 2D fluid simulator targeted at High School and Undergrad physics students.",
+    "skills": ["Bevy", "Rust"],
+    "demo": "",
+    "source": "https://github.com/Aeronautical-Axolotls/JuiceBox"
   },
   {
-    "title": "Project B",
+    "title": "Crabfeed",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Crabfeed is a TUI RSS explorer.",
+    "skills": ["Rust", "Clap", "Ratatui"],
+    "demo": "",
+    "source": "https://github.com/r3dc0g/crabfeed"
   },
   {
-    "title": "Project C",
+    "title": "Class Flowchart and Dependency List",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Python program that uses graph theory to create a schedule for a Seattle Pacific University student.",
+    "skills": ["Python", "Pyvis"],
+    "demo": "",
+    "source": "https://github.com/csc3430-winter2023/flowchart-a-cruel-angel-s-algorithm/tree/main"
   }
 ]

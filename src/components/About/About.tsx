@@ -6,31 +6,23 @@ export const About = () => {
         <section className={styles.container} id="about">
             <h2 className={styles.title}>About</h2>
             <div>
-                <img
-                    src={getImageUrl("about/aboutImage.png")}
-                    alt="Me sitting with my laptop"
-                    className={styles.aboutImage}
-                />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon"/>
                         <div className={styles.aboutItemText}>
-                            <h3>Frontend Developer</h3>
-                            <p>Frontend developer with experience in building responsive and optimized sites</p>
+                            <h3>Hobbies</h3>
+                            <p>I enjoy learning new things, playing fast paced video games, and reading! I'm currently learning about terminal UIs, playing Ultrakill in my free time, and reading existtenialist philosophy.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/serverIcon.png")} alt="server icon"/>
                         <div className={styles.aboutItemText}>
-                            <h3>Backend Developer</h3>
-                            <p>I have experience developing fast and optimized backend systems and APIs.</p>
+                            <h3>Interests</h3>
+                            <p>I'm interested in all things complex! Recently I've been digging deeper into the Rust programming language. I enjoy the challenge the borrow checker introduces. It forces the developer to be conscious about their memory useage.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/uiIcon.png")} alt="UI icon"/>
                         <div className={styles.aboutItemText}>
-                            <h3>Backend Developer</h3>
-                            <p>I have created multiple landing pages and have designed systems as well</p>
+                            <h3>Passions</h3>
+                            <p>I have a passion for knowledge and art. Currently, I work as a Lab Assistant at my university, and I enjoy helping new students get into the world of computer science. I am also working on developing my design skills so that the things I create are artistically and aesthically interesting!</p>
                         </div>
                     </li>
                 </ul>
