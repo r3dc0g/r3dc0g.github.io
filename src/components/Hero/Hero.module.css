@@ -101,6 +101,10 @@
         flex-direction: column-reverse;
     }
 
+    .description {
+        margin: 26px;
+    }
+
     .content {
         align-items: center;
     }
