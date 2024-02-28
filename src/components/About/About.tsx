@@ -9,7 +9,7 @@ export const About = () => {
                     <li className={styles.aboutItem}>
                         <div className={styles.aboutItemText}>
                             <h3>Hobbies</h3>
-                            <p>I enjoy learning new things, playing fast paced video games, and reading! I'm currently learning about terminal UIs, playing Ultrakill in my free time, and reading existtenialist philosophy.</p>
+                            <p>I enjoy learning new things, playing fast paced video games, and reading! I'm currently learning about terminal UIs, playing Ultrakill in my free time, and reading existentialist philosophy.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
@@ -21,7 +21,7 @@ export const About = () => {
                     <li className={styles.aboutItem}>
                         <div className={styles.aboutItemText}>
                             <h3>Education</h3>
-                            <p>I am currently enrolled at Seattle Pacific University earning a Bachelors of Science in Computer Science and a Bachelors of Arts in Liberal Arts!</p>
+                            <p>I am currently enrolled at Seattle Pacific University earning a Bachelors of Science in Computer Science and a Bachelors of Arts in Liberal Arts! I will complete my program June 2024.</p>
                         </div>
                     </li>
                 </ul>
