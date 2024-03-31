@@ -22,5 +22,21 @@
     "skills": ["Python", "Pyvis"],
     "demo": "",
     "source": "https://github.com/csc3430-winter2023/flowchart-a-cruel-angel-s-algorithm/tree/main"
+  },
+  {
+    "title": "Battleship",
+    "imageSrc": "projects/project.png",
+    "description": "Terminal Battleship game written in C++.",
+    "skills": ["C++", "OOP"],
+    "demp": "",
+    "source": "https://github.com/r3dc0g/Battleship"
+  },
+  {
+    "title": "Huffman Compression",
+    "imageSrc": "projects/project.png",
+    "description": "A C++ implementation of Huffman Coding used to compress a text file.",
+    "skills": ["C++", "OOP"],
+    "demp": "",
+    "source": "https://github.com/r3dc0g/HuffmanCompression"
   }
 ]
