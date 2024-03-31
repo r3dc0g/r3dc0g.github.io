@@ -28,7 +28,7 @@
     "imageSrc": "projects/project.png",
     "description": "Terminal Battleship game written in C++.",
     "skills": ["C++", "OOP"],
-    "demp": "",
+    "demo": "",
     "source": "https://github.com/r3dc0g/Battleship"
   },
   {
@@ -36,7 +36,7 @@
     "imageSrc": "projects/project.png",
     "description": "A C++ implementation of Huffman Coding used to compress a text file.",
     "skills": ["C++", "OOP"],
-    "demp": "",
+    "demo": "",
     "source": "https://github.com/r3dc0g/HuffmanCompression"
   }
 ]
