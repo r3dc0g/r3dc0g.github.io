@@ -1,8 +1,8 @@
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
-import {useState} from "react";
+import {FC, useState} from "react";
 
-export const Navbar = () => {
+export const Navbar: FC = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <nav className={styles.navbar}>
@@ -22,10 +22,10 @@ export const Navbar = () => {
                     className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
                     onClick={() => setMenuOpen(false)}
                 >
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li className={styles.menuItem}><a href="#about">About</a></li>
+                    <li className={styles.menuItem}><a href="#experience">Experience</a></li>
+                    <li className={styles.menuItem}><a href="#projects">Projects</a></li>
+                    <li className={styles.menuItem}><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>

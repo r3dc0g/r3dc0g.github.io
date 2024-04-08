@@ -35,6 +35,17 @@
     text-decoration: none;
 }
 
+.menuItem {
+    transition: .2s ease-in;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.menuItem:hover {
+    box-shadow: 5px 5px 3px var(--color-primary);
+    transform: translate(-5px, -5px);
+}
+
 .menuBtn {
     display: none;
 }
