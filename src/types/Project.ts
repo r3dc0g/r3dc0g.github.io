@@ -3,7 +3,6 @@ type Project = {
   imageSrc: string;
   description: string;
   skills: string[];
-  demo: string;
   source: string;
 }
 
