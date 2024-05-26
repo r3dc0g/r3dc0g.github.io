@@ -4,7 +4,6 @@
     "imageSrc": "projects/project.png",
     "description": "JuiceBox is a 2D fluid simulator targeted at High School and Undergrad physics students.",
     "skills": ["Bevy", "Rust"],
-    "demo": "",
     "source": "https://github.com/Aeronautical-Axolotls/JuiceBox"
   },
   {
@@ -12,7 +11,6 @@
     "imageSrc": "projects/project.png",
     "description": "Crabfeed is a TUI RSS explorer.",
     "skills": ["Rust", "Clap", "Ratatui"],
-    "demo": "",
     "source": "https://github.com/r3dc0g/crabfeed"
   },
   {
@@ -20,7 +18,6 @@
     "imageSrc": "projects/project.png",
     "description": "Python program that uses graph theory to create a schedule for a Seattle Pacific University student.",
     "skills": ["Python", "Pyvis"],
-    "demo": "",
     "source": "https://github.com/csc3430-winter2023/flowchart-a-cruel-angel-s-algorithm/tree/main"
   },
   {
@@ -28,7 +25,6 @@
     "imageSrc": "projects/project.png",
     "description": "Terminal Battleship game written in C++.",
     "skills": ["C++", "OOP"],
-    "demo": "",
     "source": "https://github.com/r3dc0g/Battleship"
   },
   {
@@ -36,7 +32,6 @@
     "imageSrc": "projects/project.png",
     "description": "A C++ implementation of Huffman Coding used to compress a text file.",
     "skills": ["C++", "OOP"],
-    "demo": "",
     "source": "https://github.com/r3dc0g/HuffmanCompression"
   }
 ]

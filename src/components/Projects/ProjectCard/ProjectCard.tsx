@@ -7,7 +7,7 @@ type ProjectCardProps = {
 }
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
-    let { title, imageSrc, description, skills, demo, source } = project;
+    const { title, imageSrc, description, skills,  source } = project;
 
     return (
         <div className={styles.container}>
