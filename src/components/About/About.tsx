@@ -21,7 +21,7 @@ export const About = () => {
                     <li className={styles.aboutItem}>
                         <div className={styles.aboutItemText}>
                             <h3>Education</h3>
-                            <p>I am currently enrolled at Seattle Pacific University earning a Bachelors of Science in Computer Science and a Bachelors of Arts in Liberal Arts! I will complete my program June 2024.</p>
+                            <p>I am recently completed my Bachelors in Computer Science at Seattle Pacific University</p>
                         </div>
                     </li>
                 </ul>

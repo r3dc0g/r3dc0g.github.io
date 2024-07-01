@@ -7,6 +7,13 @@
     "source": "https://github.com/Aeronautical-Axolotls/JuiceBox"
   },
   {
+    "title": "wash: Washington Shell",
+    "imageSrc": "projects/project.png",
+    "description": "For my Operating Systems course my senior year, I wrote a simple shell in C.",
+    "skills": ["C", "Operating Systems"],
+    "source": "https://github.com/r3dc0g/wash"
+  },
+  {
     "title": "Crabfeed",
     "imageSrc": "projects/project.png",
     "description": "Crabfeed is a TUI RSS explorer.",
