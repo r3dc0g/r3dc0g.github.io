@@ -6,7 +6,7 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Garrett!</h1>
-                <p className={styles.description}>I'm a senior Computer Science student with experience using React, NodeJS, Rust, and Python. Reach out if you'd like to know more!</p>
+                <p className={styles.description}>I'm a recent college graduate looking to add value to a professional team with experience using React, NodeJS, Rust, and Python. Reach out if you'd like to know more!</p>
                 <div className={styles.btnContainer}>
                     <a className={styles.contactBtn} href="mailto:garrettc01@protonmail.com">Contact Me</a>
                     <a className={styles.resumeBtn} href="https://spuonline-my.sharepoint.com/:b:/g/personal/critesg_spu_edu/ET90AyGPo_hNtWEfBvNgazgBvkYxUEfcGhN5sNMsJidryg?e=AwnwLx">My Resume</a>
